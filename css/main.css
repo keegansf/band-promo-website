@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-image: url("../images/Desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation Bar */
+
+nav ul li {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.nav-hover:hover {
+    border-bottom: solid 2px #1eb99f;
+    transition: 0.3s ease;
+    z-index: 20;
+}
+
+a.nav-home li:hover {
+    transition: 0.4s ease;
+    color: #1eb99f;
+    z-index: 20;
+
+}
+
+nav {
+    width: 100%;
+    margin-top: 60px;
+    position: fixed;
+    background-color:
+        z-index: 20;
+}
+
+.nav {
+    display: flex;
+    font-weight: 500;
+    font-size: 14pt;
+
+}
+
+.nav-home {
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 30pt;
+    margin-top: -20px;
+    font-weight: 100;
+}
+
+.nav-contact {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.nav-album {
+    margin-left: 50px;
+}
+
+.nav-tour {
+    margin-left: 50px;
+    z-index: 7;
+}
+
+.nav-shop {
+    margin-left: 50px;
+}
+
+/* Page Navigation Links */
+
+#tour {
+    margin-top:-8%;
+    position: absolute;
+}
+
+#merch {
+    margin-top: -5%;
+    float: left;
+}
+
+/* Main Page: Album + Stream Links */
+
+.album-group {
+    display: flex;
+}
+
+.header-album {
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.main-heading {
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 17.6%;
+    margin-top: 1%
+}
+
+
+h2 {
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: right;
+    margin-right: 25.3%;
+    margin-top: 0%;
+}
+
+.button {
+    font-family: Lato;
+    background-color: #1eb99f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 15px 42px;
+    font-size: 14pt;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* Video Loop */
+
+.video-loop {
+    position: absolute;
+    width: 35.5%;
+    margin-left: 36%;
+    margin-top: 9%;
+    z-index: 4;
+}
+
+.main-button {
+    float: right;
+    margin-right: 17.5%;
+    margin-top: 1.5%;
+}
+
+
+.button:hover {
+    background-color: #18a18b;
+    transition: 0.3s ease;
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+
+}
+
+.stream-links {
+    width: 8%;
+    float: right;
+    margin-right: -19%;
+    margin-left: 22%;
+    margin-top: 7.5%;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.stream-links:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.yumi-profile {
+    z-index: -10;
+    float: left;
+    width: 45%;
+}
+
+/* Tour Page */
+
+.discovery-tour {
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28pt;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 28%;
+}
+
+.now-live {
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 28pt;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+
+.tour-button {
+    text-transform: uppercase;
+    margin-left: 34.9%;
+    margin-top: 2.5%;
+}
+
+.vip-button {
+    border: solid 5px #1eb99f;
+    background-color: transparent;
+    font-family: Lato;
+    color: white;
+    text-decoration: none;
+    padding: 11px 38px;
+    font-size: 14pt;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 2.5%;
+}
+
+.vip-button:hover {
+    background-color: #18a18b;
+    border: solid 5px #18a18b;
+    transition: 0.3s ease;
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+
+}
+
+.tour-date-title {
+    text-align: center;
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-size: 35pt;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+p {
+    font-family: Lato;
+    color: White;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.venue {
+    font-weight: 200;
+    font-size: 13pt;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: ". . ."". . ."". . .";
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+/* Merchandise */
+
+.merchandise {
+    text-align: center;
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-size: 35pt;
+    font-weight: 500;
+}
+
+.limited {
+    text-align: center;
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-size: 23pt;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+/* Sweater Hover  */
+
+.sweater-img {
+    width: 70%;
+}
+
+.purchase-button-sweater {
+    position: absolute;
+    z-index: 5;
+    margin-top: 9%;
+    margin-left: 4.5%;
+}
+
+.store-item-sweater {
+    cursor: pointer;
+}
+
+.store-item-sweater .purchase-button-sweater {
+    opacity: 0;
+}
+
+.store-item-sweater:hover .purchase-button-sweater {
+    opacity: 1;
+    transition: .8s ease;
+}
+
+.store-item-sweater:hover .sweater-img {
+    filter: blur(3px);
+
+}
+
+/* Cap Hover */
+
+.cap-img {
+    margin-top: 20%;
+    padding-bottom: 12%;
+    width: 40%;
+}
+
+.purchase-button-cap {
+    position: absolute;
+    z-index: 5;
+    margin-top: 9%;
+    margin-left: 0.5%;
+}
+
+.store-item-cap {
+    cursor: pointer;
+}
+
+.store-item-cap .purchase-button-cap {
+    opacity: 0;
+    transition: opacity .8s ease;
+}
+
+.store-item-cap:hover .purchase-button-cap {
+    opacity: 1;
+    transition: opacity .8s ease;
+}
+
+.store-item-cap:hover .cap-img {
+    filter: blur(3px);
+    transition: 0.5s ease;
+}
+
+/* Shirt Hover */
+
+.shirt-img {
+    width: 110%;
+    margin-top: -2%;
+    margin-left: -5%;
+    z-index: -1;
+}
+
+.purchase-button-shirt {
+    position: absolute;
+    z-index: 5;
+    margin-top: 9%;
+    margin-left: 8.9%;
+
+}
+
+.store-item-shirt {
+    cursor: pointer;
+    z-index: 0;
+}
+
+.store-item-shirt .purchase-button-shirt {
+    opacity: 0;
+    z-index: 1;
+}
+
+.store-item-shirt:hover .purchase-button-shirt {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.store-item-shirt:hover .shirt-img {
+    filter: blur(3px);
+    transition: 0.5s ease;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 450px 470px 440px;
+    grid-template-rows: ;
+    grid-template-areas: ". . .";
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.item-text {
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 200%;
+}
+
+.item-price {
+    font-size: 25pt;
+    font-weight: 700;
+    padding-top: 0%;
+}
+
+/* Footer Links */
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+}
+
+.footer-notes {
+    text-align: center;
+    margin-top: 12%;
+    padding-bottom: 2%;
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+.icon-size {
+    width: 20%;
+    padding-bottom: 30%;
+}
+
+.youtube {
+    margin-left: -180%;
+}
+
+.twitter {
+    margin-left: -120%;
+}
+
+.instagram {
+    margin-left: -60%;
+}
+
+.facebook:hover {
+    opacity: 0.7;
+    transition: opacity .3s ease;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.instagram:hover {
+    opacity: 0.7;
+    transition: opacity .3s ease;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.twitter:hover {
+    opacity: 0.7;
+    transition: opacity .3s ease;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.youtube:hover {
+    opacity: 0.7;
+    transition: opacity .3s ease;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
